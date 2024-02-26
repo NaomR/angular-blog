@@ -15,7 +15,7 @@
   color: gray;
 }
 
-big-card__title > h1{
+.big-card__title > h1{
   margin-top: 12px;
   font-size: 32px;
 }
@@ -28,8 +28,9 @@ big-card__title > h1{
   color: gray;
 }
 
-.big-card__image > h1{
+.big-card__image > img{
   width: 100%;
   min-width: 400px;
+  height: 250px;
 
 }

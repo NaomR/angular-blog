@@ -1,11 +1,11 @@
 <div class="small-card__container">
   <div class="small-card__container__content">
     <div class="small-card__image">
-      <img src="../../../assets/imgs/placeholder.webp" alt="" />
+      <img src="{{photoCover}}" alt="" />
     </div>
     <div class="small-card__title">
-      <span>Carlos Augusto</span>
-      <h1><a href="#"> a nova DLC de Baldur's Gate 3!</a></h1>
+      <span>{{cardAuthor}}</span>
+      <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
     </div>
   </div>
   <div class="small-card__container__separator">

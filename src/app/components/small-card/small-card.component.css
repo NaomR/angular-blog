@@ -16,11 +16,13 @@
 
 .small-card__title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
+
 .small-card__title > span {
   color: gray;
+  margin-bottom: 12px;
 }
 
 .small-card__container__separator{
